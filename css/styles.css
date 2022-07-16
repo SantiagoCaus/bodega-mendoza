@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+.carousel__top{
+    height: 500px;
+}
+.animaciones{
+    
+ 
+    position: relative;
+    animation-name: titulo;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;  
+  
+  
+}
+@keyframes titulo{
+    0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%  { left:200px; top:200px;}
+  75%  { left:0px; top:200px;}
+  100% { left:0px; top:0px;}
+}
+
+
+.titulo__color{
+    background: rgb(103,58,180);
+    background: radial-gradient(circle, rgba(103,58,180,0.9220063025210083) 0%, rgba(38,5,88,1) 53%, rgba(97,72,116,0.5830707282913166) 100%);
+}
+
+.nav__color{
+    background: rgb(103,58,180);
+    background: radial-gradient(circle, rgba(103,58,180,0.9220063025210083) 0%, rgba(38,5,88,1) 53%, rgba(97,72,116,0.5830707282913166) 100%);
+}
+
+.search__color{
+    background: rgb(103,58,180);
+    background: radial-gradient(circle, rgba(103,58,180,0) 0%, rgba(38,5,88,0) 53%, rgba(97,72,116,0) 100%);
+    }
+.navsearch__color{
+    background: rgb(103,58,180);
+    background: radial-gradient(circle, rgba(103,58,180,0.9220063025210083) 0%, rgba(38,5,88,1) 53%, rgba(97,72,116,0.5830707282913166) 100%);
+}
+
+.go__bootsomewhere{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    
+}
+.go__framesomewhere{
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+.go__librarysomewhere{
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    
+}
+.go__schoolsomewhere{
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+}
+
+.footer__background{ background: rgb(103,58,180);
+    background: radial-gradient(circle, rgba(103,58,180,0.9220063025210083) 0%, rgba(38,5,88,1) 53%, rgba(97,72,116,0.5830707282913166) 100%);
+color: whitesmoke;
+
+}
+.footer__background a{
+    color: whitesmoke;
+}
+.footer__background li{
+    color: white;
+}
