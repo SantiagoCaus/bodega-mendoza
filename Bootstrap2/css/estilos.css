@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    font-size: 65,5%;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    line-height: 1.66;
+    /* background-image: url(/img/wine-background-red-wine.jpg); */
+    margin: 0;
+    
+}
+img{
+    width: 100%;
+}
+
+/* ----HEADER------ */
+.header__logo{
+    height: 150px;
+    width: 10%;
+}
+header{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../img/fondoheader.jpg);
+    background-size: cover;
+    border-bottom: 5px solid rgb(8, 7, 7);
+   
+}
+.menu__nav{
+    width: 50%;
+    margin: 0 10px 0 0;
+   
+}
+.menu__ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+    
+
+}
+
+
+
+.menu__link{
+    text-decoration: none;
+    color: beige;
+        text-transform: uppercase;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        padding: 1rem;
+        font-size: 1,5em;
+        transition: 1s;
+}
+.menu__link:hover{
+    background: burlywood
+}
+/* Fin header */
+
+
+/* Main */
+.background__img{
+    background-image: url(/img/fondo-encabezado.jpg);
+    
+}
+#encabezado{
+    background-image: url(/img/Footer-wood-gray.jpg);
+    font-family: 'Lora', serif;
+    color: #E6B325;
+}
+.titulo{
+    font-size: 100px;
+    font-family: 'Lora', serif;
+    color: rgb(115, 10, 10)
+}
+.subtitle{
+    
+    padding: 13rem;
+    height: 350px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(115, 10, 10)
+}
+
+.Destacados{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+    
+
+
+#about{
+    
+    font-family: 'Lora', serif;
+    color: rgb(64, 14, 21);
+
+}
+#about p{
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+.concepto__titulo{
+    font-size: 100px;
+
+}
+     
+    
+    
+   .iconify{
+    font-size: 2em;
+   } 
+
+
+   .footer{
+    background-color: black;
+    color: antiquewhite;
+    clear: both;
+    padding: 2rem;
+background-image: url(/img/Footer-wood-gray.jpg);}
+
+
+   .footer__flex{
+    display: flex;
+    justify-content: space-around;
+   }
+   .footer__titulo{
+    font-size: 0,9rem;
+text-align: center;}
+
+    .footer__ul{
+        list-style: none;
+        text-align: center;}
+
+        .footer__link{
+            color: aliceblue;
+            padding:1rem;
+            text-decoration: none;
+            font-size: 0,7rem;}
+
+            .footer__sitios{
+                display: flex;
+                gap: 10px;
+                list-style: none;
+                padding: 10px;
+            }
+
+
+
+
+/* Mobile */
+/* @media only screen and (max-width:480px){
+    .header__logo{
+        display: none;
+    }
+    header{
+        display: none
+        
+    }
+    .gallery__contenedor{
+        grid-template-columns: repeat(4,1fr);}
+
+        .gallery__item:nth-child(1){
+        grid-column-start: span 1;
+       
+        
+    }
+    .gallery__item:nth-child(2){
+       grid-column-start: span 1;
+      
+       
+    }
+    .gallery__item:nth-child(3){
+        grid-column-start: span 1;
+        
+    }
+    .gallery__item:nth-child(4){
+        grid-column-start:span 1 ;
+        
+        
+    }
+
+} */
+
+
+
+/* Tablet */
+/* @media only screen and (min-width:481) and (max-width:980px){
+
+} */
+
+
+/* Desktop */
+/* @media only screen and (min-width:981px){ */
+    
+/* } */
+   
+/* .gallery__img:nth-of-type(){
+    grid-column: 1/7;
+   
+    
+
+
+}
+.gallery__img:nth-of-type(1){
+    grid-column: 1/7;
+
+}
+
+.gallery__img:nth-of-type(2){
+    grid-column: 7/13;
+    
+    
+    
+}
+.gallery__img:nth-of-type(3){
+    grid-column: 1/7;
+
+    
+}
+.gallery__img:nth-of-type(4){
+    grid-column: 7/13;
+    
+} */
+
+
+
+
+
+
+
+
+
+
+/* helpers */
+/* .flex{
+    display: flex;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+} */
+
+
+
+/*------ Estilos Main Index------- */
+/* .grid_padre{
+    display: grid;
+    grid-template-columns: repeat (1fr 1fr 1fr);
+    grid-template-rows: 400px 300px auto auto;
+    grid-template-areas:
+    "titulo titulo titulo"            
+    "parrafo Bodega_img Bodega_img"
+    "milvientos_img stupb_img polkhara_img"
+    "tucujovenmalbec_img tucujovenmalbec_img tucujovenmalbec_img";
+   
+}
+
+
+.titulo{
+    grid-area: titulo;
+    text-align: left  ; 
+    padding: 50px;
+    font-style: italic;
+}
+.parrafo_principal{
+    grid-area: parrafo;
+    line-height: 40px;
+}
+.Bodega_img{
+    grid-area: Bodega_img;
+}
+.milvientos_img{
+    grid-area: milvientos_img;
+}
+.polkhara_img{
+    grid-area: polkhara_img;
+    
+}
+.stupb_img{
+    grid-area: stupb_img;
+}
+.tucujovenmalbec_img{
+    grid-area: tucujovenmalbec_img;
+    
+}
+.grid_padre img{
+    width: 350px;
+   
+    
+
+} */
+
+
+
+
+
+
+
+
+
