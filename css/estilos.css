@@ -114,6 +114,64 @@ header{
     font-size: 100px;
 
 }
+.datos{
+    background-color:   rgb(64, 14, 21);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 50%;
+    
+}
+.datos h3{
+    font-size: 40px;
+}
+.datos p{
+    font-style: italic;
+}
+.learn__more{
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid;
+    border-color: rgba(232,226,215,0.2);
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: rgba(0,0,0,0);
+    font-style: italic;
+}
+.learn__more:hover{
+    transition: 0.4s;
+    border-color: antiquewhite;
+    color: antiquewhite;
+}
+
+
+
+
+
+.visitanos__titulo{
+    
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(64, 14, 21);
+}
+.planvisit{
+   text-decoration: none;
+   color: rgb(64, 14, 21);
+   border: 1px solid rgb(64, 14, 21) ; 
+   padding: 20px 40px 20px 40px;
+}
+.planvisit:hover{
+    background-color: rgb(64, 14, 21);
+    color: white;
+    transition: 0.4s;
+
+}
+
+
+.background__uvas{
+    background-image: url(/img/background-uvas.png);
+}
+
+
+
      
     
     
@@ -159,38 +217,23 @@ text-align: center;}
 
 
 /* Mobile */
-/* @media only screen and (max-width:480px){
+ @media only screen and (max-width:576px){
     .header__logo{
         display: none;
     }
     header{
-        display: none
-        
-    }
-    .gallery__contenedor{
-        grid-template-columns: repeat(4,1fr);}
-
-        .gallery__item:nth-child(1){
-        grid-column-start: span 1;
-       
-        
-    }
-    .gallery__item:nth-child(2){
-       grid-column-start: span 1;
-      
+        display: flex;
+        flex-direction: column;
        
     }
-    .gallery__item:nth-child(3){
-        grid-column-start: span 1;
-        
+    .menu__ul{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px 10px 20px;
+        margin: 20px 10px 20px 10px;
+        gap: 30px;
     }
-    .gallery__item:nth-child(4){
-        grid-column-start:span 1 ;
-        
-        
     }
-
-} */
 
 
 
