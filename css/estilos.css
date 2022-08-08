@@ -4,15 +4,15 @@
     box-sizing: border-box;
     
 }
-html{
-    font-size: 65,5%;
-}
+/* html{
+    font-size: 65,5%; */
+/* } */
 body{
-    font-family: 'Raleway', sans-serif;
-    font-size: 12px;
-    line-height: 1.66;
-    /* background-image: url(/img/wine-background-red-wine.jpg); */
-    margin: 0;
+    font-family: 'Oleo Script Swash Caps';
+    /* font-size: 12px;
+    line-height: 1.66; */
+    background-image: url(/img/wine-background-red-wine.jpg);
+   
     
 }
 img{
@@ -20,6 +20,17 @@ img{
 }
 
 /* ----HEADER------ */
+/* .iconos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+} */
+
+
 .header__logo{
     height: 150px;
     width: 10%;
@@ -34,10 +45,12 @@ header{
     background-size: cover;
     border-bottom: 5px solid rgb(8, 7, 7);
    
+   
 }
 .menu__nav{
     width: 50%;
     margin: 0 10px 0 0;
+   
    
 }
 .menu__ul{
@@ -48,6 +61,19 @@ header{
     
 
 }
+.boton__bodega{
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   
+    
+}
+.boton__bodega:hover{
+    background-color: #EB1D36;
+    color: black;
+    transition: 1s;
+    border: black;
+}
 
 
 
@@ -57,12 +83,16 @@ header{
         text-transform: uppercase;
         background-color: black;
         color: rgb(255, 255, 255);
-        padding: 1rem;
+        padding: 12px;
         font-size: 1,5em;
         transition: 1s;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .menu__link:hover{
-    background: burlywood
+    background: #EB1D36;
+    color:black
+    
 }
 /* Fin header */
 
@@ -70,29 +100,56 @@ header{
 /* Main */
 .background__img{
     background-image: url(/img/fondo-encabezado.jpg);
+    background-size: cover;
     
 }
-#encabezado{
-    background-image: url(/img/Footer-wood-gray.jpg);
-    font-family: 'Lora', serif;
-    color: #E6B325;
+.fondo__outline{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    background-color: rgba(11, 11, 11, 0.8);
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 90px 15%;
+    font-size: 40px;
+    min-width: 70%;
 }
+.fondo__destacados{
+    background-image: url(/img/fondo-destacados.jpg);
+}
+.fondo__fono{
+    background-image: url(/img/Fondofono.jpg);
+    background-size: cover;
+}
+.contacto{
+    font-size: 60px;
+    color: #FBB454;
+    content: "";
+    height: 3px;
+    display: block;
+    margin: 30px auto;
+
+}
+
 .titulo{
     font-size: 100px;
     font-family: 'Lora', serif;
-    color: rgb(115, 10, 10)
+    color: rgb(101, 5, 5)
 }
-.subtitle{
+/* .subtitle{
     
     padding: 13rem;
     height: 350px;
     font-size: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(115, 10, 10)
-}
+} */
 
 .Destacados{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(64, 14, 21);
+
+
 
 }
     
@@ -110,14 +167,12 @@ header{
     
 }
 
-.concepto__titulo{
-    font-size: 100px;
 
-}
 .datos{
     background-color:   rgb(64, 14, 21);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 50%;
+   
     
 }
 .datos h3{
@@ -167,19 +222,46 @@ header{
 
 
 .background__uvas{
-    background-image: url(/img/background-uvas.png);
+    background:url(/img/background-uvas.png);
+    padding: 80px 0px;
+    
+    
+
 }
-
-
-
-     
-    
-    
    .iconify{
     font-size: 2em;
    } 
+   /*----------- PDFS-------- */
+   .pokhara__pdf{
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 570px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   }
+   .precios__pdf{
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 570px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   }
+   .especiales__pdf{
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 570px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+   }
+
+   
 
 
+/* FOOTER */
    .footer{
     background-color: black;
     color: antiquewhite;
