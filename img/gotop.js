@@ -7,3 +7,13 @@ window.onscroll = function(){
 
     }
 }
+document.querySelector('.go-top-container')
+.addEventListener( 'click', () =>{
+window.scrollTop({
+top: 0,
+behavior: 'smooth'
+})
+
+
+
+})
