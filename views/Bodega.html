@@ -12,18 +12,32 @@
 <body>
      <!-- inicio header -->
      <header>
+      
+    
+
         <img class="header__logo" src="../img/Logo.jpg" alt="Logo">
 <nav class="menu__nav">
     <ul class="menu__ul">
 
         <li class="menu__item"><a class="menu__link" href="../index.html">Inicio</a></li>
-        <li> <a class="menu__link" href="Bodega.html">Bodega</a></li>
+        <div class="dropdown">
+          <button class="btn btn-danger dropdown-toggle boton__bodega" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            BODEGA
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item menu__link" href="./Pdf/FICHA VINOS-1.pdf">Mil Vientos</a></li>
+            <li><a class="dropdown-item menu__link" href="./Pdf/FT BB STPB Malbec.pdf">STUPB</a></li>
+            <li><a class="dropdown-item menu__link" href="./Pdf/FT BB TucJoven Malbec.pdf">Tucumen</a></li>
+            <li><a class="dropdown-item menu__link" href="./Pdf/A LA PAR . ED. ESPECIAL 210626.pdf">Especiales</a></li>
+          </ul>
+        </div>
         <li> <a class="menu__link" href="pokhara.html">POKHARA</a></li>
-        
+       
         <li> <a class="menu__link" href="Precios.html">Precios</a></li>
         <li><a class="menu__link" href="contacto.html">Contacto</a></li> 
         </ul>
 </nav>
+
     </header>
     <!-- fin header -->
 
