@@ -36,6 +36,7 @@ header{
 }
 .header__logo{
     width: 20%;
+    background-image: url(../img/fondoheader.jpg);
 
 }
 
