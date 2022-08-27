@@ -29,7 +29,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-image: url(/img/fondoheader.jpg);
+    background-image: url(../img/fondoheader.jpg);
     background-size: cover;
     border-bottom: 5px solid rgb(8, 7, 7);
   
@@ -129,7 +129,6 @@ transition: opacity 150ms ease-in-out, transform 150ms ease-in-out ;}
     min-height: 1.3em;
     transition: 1s;
     border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     z-index: -1; 
 
     
@@ -171,7 +170,7 @@ transition: opacity 150ms ease-in-out, transform 150ms ease-in-out ;}
 
 /* fondo encabezado */
 .background__img{
-    background-image: url(/img/fondo-encabezado.jpg);
+    background-image: url(../img/fondo-encabezado.jpg);
     background-size: cover;
     
 }
@@ -180,38 +179,6 @@ transition: opacity 150ms ease-in-out, transform 150ms ease-in-out ;}
     font-family: 'Lora', serif;
     color: rgb(101, 5, 5)
 }
-
-/*----- contacto--- */
-.fondo__outline{
-    position: relative;
-    z-index: 2;
-    text-align: center;
-    background-color: rgba(11, 11, 11, 0.8);
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 90px 15%;
-    font-size: 40px;
-    min-width: 70%;
-}
-.fondo__destacados{
-    background-image: url(/img/fondo-destacados.jpg);
-}
-.fondo__fono{
-    background-image: url(/img/Fondofono.jpg);
-    background-size: cover;
-}
-.contacto{
-    font-size: 60px;
-    color: #FBB454;
-    content: "";
-    height: 3px;
-    display: block;
-    margin: 30px auto;
-
-}
-
-
-
 
 
 .Destacados{
@@ -288,7 +255,7 @@ transition: opacity 150ms ease-in-out, transform 150ms ease-in-out ;}
 
 
 .background__uvas{
-    background:url(/img/background-uvas.png);
+    background:url(../img/background-uvas.png);
     /* padding: 80px 0px; */
    
     
@@ -299,9 +266,139 @@ transition: opacity 150ms ease-in-out, transform 150ms ease-in-out ;}
     font-size: 2em;
    } 
 
+   /*----- contacto--- *//*----- contacto--- *//*----- contacto--- *//*----- contacto--- *//*----- contacto--- *//*----- contacto--- *//*----- contacto--- */
+.fondo__outline{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    background-color: rgba(11, 11, 11, 0.8);
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 90px 15%;
+    font-size: 40px;
+    min-width: 70%;
+}
+.fondo__destacados{
+    background-image: url(../img/fondo-destacados.jpg);
+}
+.fondo__fono{
+    background-image: url(../img/Fondofono.jpg);
+    background-size: cover;
+}
+.contacto{
+    font-size: 60px;
+    color: #FBB454;
+    content: "";
+    height: 3px;
+    display: block;
+    margin: 30px auto;
+
+}
+/* Fin contacto *//* Fin contacto *//* Fin contacto *//* Fin contacto *//* Fin contacto */
 
 
-   /*----------- PDFS-------- */
+/* Archivo Precios *//* Archivo Precios *//* Archivo Precios *//* Archivo Precios *//* Archivo Precios *//* Archivo Precios */
+
+.full-screen-container{
+    background-image: url(../img/Stock-precios.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.login__title{
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+    color: beige;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    border-radius: 20px;
+   box-shadow: 0 0 15px 0 red;
+   
+
+}
+.login__container{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    background-color:  hsl(355, 15%, 7%, .7);
+   box-shadow: 0 0 15px 0 red;
+    padding: 40px 30px;
+    width: 80%;
+    /* max-width: 600px; */
+    
+}
+.go__pdf{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    border: 1px solid red ; 
+    padding: 20px 40px 20px 40px;
+ }
+ .go__pdf:hover{
+     
+     color: white;
+     transition: 0.4s;
+     border: 1px solid black ;
+     box-shadow: 0 0 15px 0 red;
+ 
+ }
+ .form{
+    display: flex;
+    flex-direction: column; 
+     color: white;
+    gap: 20px;
+    margin-top: 40px;
+ }
+ .input__group{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+ }
+ .messagge{
+    
+    font-size: 1.25rem;
+    padding: .5rem;
+    background-color:hsl(355, 15%, 7%, .3); 
+    width: 100%;
+    font-weight: lighter;
+    border-radius: .25rem;
+ }
+ .messagge:hover{
+    background-color:hsl(355, 15%, 7%, .3);
+    box-shadow: 0 0 15px 0 red;
+
+ }
+ ::placeholder{
+    color: white;
+ }
+ .login__button{
+    padding: .5em 1em;
+    font-size: 2rem;
+    font-weight: lighter;
+    color: white;
+    background-color:hsl(355, 15%, 7%, .3);
+    border: 1px solid black;
+    border-radius: .25em;
+    outline: none;
+    cursor: pointer;
+ }
+ .login__button:hover{
+    box-shadow: 0 0 15px 0 red;
+
+ }
+
+
+
+   /*----------- PDFS-------- *//*----------- PDFS-------- *//*----------- PDFS-------- *//*----------- PDFS-------- *//*----------- PDFS-------- */
    .pokhara__pdf{
     margin: auto;
     display: block;
@@ -327,13 +424,18 @@ transition: opacity 150ms ease-in-out, transform 150ms ease-in-out ;}
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
    }
+   /* fin PDFS */ /* fin PDFS */ /* fin PDFS */ /* fin PDFS */ /* fin PDFS */ /* fin PDFS */ /* fin PDFS */
+
+
+
+
 
 /* Fin Main */
 
 
 /* FOOTER */
    .footer{ 
-background-image: url(/img/conchaytoro.jpg);
+background-image: url(../img/conchaytoro.jpg);
 background-size: cover;
 padding: 90px 0 0;
 display: flex;
@@ -412,10 +514,7 @@ text-align: center;}
         justify-content: center;
         flex-direction: column;
         align-content: center;
-        align-items: center;
-        
-        
-        
+        align-items: center;  
     }
     .titulo p{
         font-size: 10px;
@@ -450,14 +549,25 @@ text-align: center;}
     .background__uvas{
         display: none;
     }
-    /* .plan__visit{
-        display: flex;
+    /* Archivo de precios */
+    .login__container{
+        padding: 20px 20px;
+        margin: 30px 20px;
+        width: 80%;
+        height: 100vh;
+        max-width: 600px;
     }
-    .come__visitus{
-        justify-content: space-around;
-        display: flex;
-      
-    } */
+    .login__button{
+        padding: 1em 1em;
+        font-size: 1rem;
+
+    }
+    .messagge{
+        font-size: 1.rem;
+        padding: .3rem;
+    }
+    /* Fin archivo precios */
+    
     .Footer{
         display: flex;
        flex-direction: column;
@@ -545,6 +655,24 @@ text-align: center;}
         .background__uvas{
             display: none;
         }
+         /* Archivo de precios */
+    .login__container{
+        padding: 20px 20px;
+        margin: 30px 20px;
+        width: 80%;
+        height: 100vh;
+        max-width: 600px;
+    }
+    .login__button{
+        padding: 1em 1em;
+        font-size: 1rem;
+
+    }
+    .messagge{
+        font-size: 1.rem;
+        padding: .3rem;
+    }
+    /* Fin archivo precios */
 
 
 }
@@ -552,21 +680,35 @@ text-align: center;}
 
 
 /* Desktop */
-@media only screen and (min-width:992px) and(max-width:1200px) {
-    header{
-        display: flex;
-        flex-direction: column;
+
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .header__logo{
+        width: 30%;
+    
+    }
+
+
+    
+        .icono{
+           display: none;
+        }
+ .menu{
+    width: 100%;
+    margin: 0;
+ }
         
 
-}
-.header__logo{
-    display: none;}
+
+
+/* .header__logo{
+    display: none;} */
+
 .menu__ul{
     display: flex;
     flex-direction: row;
     padding: 10px 20px 10px 20px;
     margin: 20px 10px 20px 10px;
-    gap: 30px;
+    gap: 20px;
     }
     .Destacados{
        
@@ -578,6 +720,25 @@ text-align: center;}
     .background__uvas{
         background-position-x: center;
     }
+     /* Archivo de precios */
+     .login__container{
+        padding: 20px 20px;
+        margin: 30px 20px;
+        width: 80%;
+        height: 100vh;
+        max-width: 600px;
+    }
+    .login__button{
+        padding: 1em 1em;
+        font-size: 1rem;
+
+    }
+    .messagge{
+        font-size: 1.rem;
+        padding: .3rem;
+    }
+    /* Fin archivo precios */
+
     }
 
     
