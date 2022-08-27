@@ -118,15 +118,24 @@
             </div><div class="wpcf7-response-output" role="alert" aria-hidden="true"></div></form>
              
         <div>
-            <h2 class="footer__titulo text-center my-4">Home</h2>
+            <h2 class="footer__titulo text-center my-4"> <a href="../index.html">Home</a> </h2>
             <nav class="footer__nav">
             <ul class="footer__ul">
 
-                <li class="footer__item"><a class="footer__link" href="index.html">Inicio</a></li>
-                <li> <a class="footer__link" href="./views/Bodega.html">Bodega</a></li>
-                <li> <a class="footer__link" href="./views/pokhara.html">POKHARA</a></li>
-                <li> <a class="footer__link" href="./views/Precios.html">Precios</a></li>
-                <li><a class="footer__link" href="./views/contacto.html">Contacto</a></li> 
+              <div class="dropdown">
+                <button class="btn btn-danger dropdown-toggle boton__bodega" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  BODEGA <iconify-icon icon="emojione:wine-glass" width="25"></iconify-icon>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item menu__link" href="../Pdf/FICHA VINOS-1.pdf">Mil Vientos</a></li>
+                  <li><a class="dropdown-item menu__link" href="../Pdf/FT BB STPB Malbec.pdf">STUPB</a></li>
+                  <li><a class="dropdown-item menu__link" href="../Pdf/FT BB TucJoven Malbec.pdf">Tucumen</a></li>
+                  <li><a class="dropdown-item menu__link" href="../Pdf/A LA PAR . ED. ESPECIAL 210626.pdf">Especiales</a></li>
+                
+                </div>
+                
+                <li> <a class="footer__link" href="../views/Precios.html">Precios</a></li>
+                <li><a class="footer__link" href="../views/contacto.html">Contacto</a></li> 
                 </ul>
                 </nav>
             </div>
