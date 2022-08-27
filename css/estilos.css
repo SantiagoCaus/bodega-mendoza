@@ -437,6 +437,8 @@ transition: opacity 150ms ease-in-out, transform 150ms ease-in-out ;}
 /* FOOTER */
    .footer{ 
 background-image: url(../img/conchaytoro.jpg);
+font-family: 'Oleo Script Swash Caps';
+
 background-size: cover;
 padding: 90px 0 0;
 display: flex;
