@@ -535,11 +535,22 @@ text-align: center;
         align-content: center;
         align-items: center;  
     }
-    .titulo p{
+    .descripcion{
         font-size: 10px;
+        display: flex;
+        width: 100%;
+    }
+    .ver__mas{
+        width: 100%;
+    }
+    .icono{
+        width: 10px;
     }
     .titulo{
         font-size: 50px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
     }
     .Destacados{
         flex-direction: column;
@@ -569,12 +580,11 @@ text-align: center;
         display: none;
     }
     /* Archivo de precios */
-    .login__container{
-        padding: 20px 20px;
-        margin: 30px 20px;
-        width: 80%;
-        height: 100vh;
-        max-width: 600px;
+    .form{
+        margin: 0;
+    }
+    .full-screen-container{
+        height: 100%;
     }
     .login__button{
         padding: 1em 1em;
@@ -607,6 +617,27 @@ text-align: center;
         text-align: center;
     
         }
+        /* archivo de contactos */
+        .fondo__outline{
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            background-color: rgba(11, 11, 11, 0.8);
+            max-width: 80%;
+            margin: 0 auto;
+            padding: 90px 15%;
+            font-size: 40px;
+            min-width: 70%;
+        }
+        .contacto{
+            font-size: 60px;
+            color: #FBB454;
+            height: 3px;
+           display: flex;
+           justify-content: center;
+            margin: 30px auto;
+        
+}
 }
     
 
@@ -614,6 +645,8 @@ text-align: center;
 
 /* Tablet */
 @media only screen and (min-width:577px) and (max-width:991px){
+
+    /* header */
     .header__logo{
         display: none;
     }
@@ -632,6 +665,11 @@ text-align: center;
         margin: 20px 10px 20px 10px;
         gap: 50px;
     }
+    /* fin header */
+
+
+    /* main index */
+
     .main__encabezado{
         display: flex;
         flex-wrap: wrap;
@@ -640,12 +678,18 @@ text-align: center;
         align-content: center;
         align-items: center;}
 
-        .titulo p{
+        .descripcion{
             font-size: 10px;
-        }
-        .titulo{
-            font-size: 50px;
-        }
+            display: flex;
+            width: 100%;}
+            .titulo{
+                font-size: 90px;
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: center;}
+                .ver__mas{
+                    width: 100%;
+                }
 
         .Destacados{
             
@@ -674,7 +718,7 @@ text-align: center;
         .background__uvas{
             display: none;
         }
-         /* Archivo de precios */
+         /* Archivo de precios main */
     .login__container{
         padding: 20px 20px;
         margin: 30px 20px;
@@ -693,6 +737,27 @@ text-align: center;
     }
     /* Fin archivo precios */
 
+/* Archivo contacto */
+.fondo__outline{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    background-color: rgba(11, 11, 11, 0.8);
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 90px 15%;
+    font-size: 40px;
+    min-width: 70%;
+}
+.contacto{
+    font-size: 60px;
+    color: #FBB454;
+    height: 3px;
+   display: flex;
+   justify-content: center;
+    margin: 30px auto;
+
+}
 
 }
 
